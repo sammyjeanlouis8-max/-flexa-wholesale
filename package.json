@@ -1,1 +1,18 @@
-ew0KICAgICJwcml2YXRlIjogdHJ1ZSwNCiAgICAic2NyaXB0cyI6IHsNCiAgICAgICAgImRldiI6ICJucG0gcnVuIGRldmVsb3BtZW50IiwNCiAgICAgICAgImRldmVsb3BtZW50IjogIm1peCIsDQogICAgICAgICJ3YXRjaCI6ICJtaXggd2F0Y2giLA0KICAgICAgICAid2F0Y2gtcG9sbCI6ICJtaXggd2F0Y2ggLS0gLS13YXRjaC1vcHRpb25zLXBvbGw9MTAwMCIsDQogICAgICAgICJob3QiOiAibWl4IHdhdGNoIC0taG90IiwNCiAgICAgICAgInByb2QiOiAibnBtIHJ1biBwcm9kdWN0aW9uIiwNCiAgICAgICAgInByb2R1Y3Rpb24iOiAibWl4IC0tcHJvZHVjdGlvbiINCiAgICB9LA0KICAgICJkZXZEZXBlbmRlbmNpZXMiOiB7DQogICAgICAgICJheGlvcyI6ICJeMC4yNSIsDQogICAgICAgICJsYXJhdmVsLW1peCI6ICJeNi4wLjYiLA0KICAgICAgICAibG9kYXNoIjogIl40LjE3LjE5IiwNCiAgICAgICAgInBvc3Rjc3MiOiAiXjguMS4xNCINCiAgICB9DQp9DQo=
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.25",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    }
+}
