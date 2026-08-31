@@ -46,6 +46,11 @@ RUN migration="database/migrations/2024_08_04_115138_create_product_image_table.
         sed -i "/Schema::create('product_image'/a\\            \$table->id();" "$migration"; \
     fi
 
+RUN migration="database/migrations/2014_10_12_000000_create_users_table.php"; \
+    if ! grep -Eq 'primary|increments|->id\(' "$migration"; then \
+        sed -i "/Schema::create('users'/a\\            \$table->id();" "$migration"; \
+    fi
+
 RUN sed -ri 's!/var/www/html!/var/www/html/public!g' \
         /etc/apache2/sites-available/000-default.conf \
     && printf '%s\n' \
