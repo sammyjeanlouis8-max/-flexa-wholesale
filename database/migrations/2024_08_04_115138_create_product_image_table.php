@@ -1,1 +1,31 @@
-PD9waHANCg0KdXNlIElsbHVtaW5hdGVcRGF0YWJhc2VcTWlncmF0aW9uc1xNaWdyYXRpb247DQp1c2UgSWxsdW1pbmF0ZVxEYXRhYmFzZVxTY2hlbWFcQmx1ZXByaW50Ow0KdXNlIElsbHVtaW5hdGVcU3VwcG9ydFxGYWNhZGVzXFNjaGVtYTsNCg0KcmV0dXJuIG5ldyBjbGFzcyBleHRlbmRzIE1pZ3JhdGlvbiB7DQogICAgLyoqDQogICAgICogUnVuIHRoZSBtaWdyYXRpb25zLg0KICAgICAqDQogICAgICogQHJldHVybiB2b2lkDQogICAgICovDQogICAgcHVibGljIGZ1bmN0aW9uIHVwKCkNCiAgICB7DQogICAgICAgIFNjaGVtYTo6Y3JlYXRlKCdwcm9kdWN0X2ltYWdlJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsNCiAgICAgICAgICAgICR0YWJsZS0+aW50ZWdlcigncHJvZHVjdF9pZCcpOw0KICAgICAgICAgICAgJHRhYmxlLT5pbnRlZ2VyKCdpbWFnZV9pZCcpOw0KICAgICAgICB9KTsNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiBSZXZlcnNlIHRoZSBtaWdyYXRpb25zLg0KICAgICAqDQogICAgICogQHJldHVybiB2b2lkDQogICAgICovDQogICAgcHVibGljIGZ1bmN0aW9uIGRvd24oKQ0KICAgIHsNCiAgICAgICAgU2NoZW1hOjpkcm9wSWZFeGlzdHMoJ3Byb2R1Y3RfaW1hZ2UnKTsNCiAgICB9DQp9Ow0K
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration {
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('product_image', function (Blueprint $table) {
+            $table->id();
+            $table->integer('product_id');
+            $table->integer('image_id');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('product_image');
+    }
+};
