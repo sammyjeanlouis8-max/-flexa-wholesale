@@ -38,7 +38,7 @@ RUN if [ -f hosting-assets/flexa-source.tar.gz ]; then \
 # Apply this after restoring the hosting archive, which contains the legacy migration.
 RUN migration="database/migrations/2014_10_12_100000_create_password_resets_table.php"; \
     if ! grep -qF '$table->id();' "$migration"; then \
-        sed -i "/Schema::create('password_resets'/a\\            \\$table->id();" "$migration"; \
+        sed -i "/Schema::create('password_resets'/a\\            \$table->id();" "$migration"; \
     fi
 
 RUN sed -ri 's!/var/www/html!/var/www/html/public!g' \
