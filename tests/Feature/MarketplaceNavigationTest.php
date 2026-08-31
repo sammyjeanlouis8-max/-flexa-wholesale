@@ -1,1 +1,295 @@
-PD9waHAKCm5hbWVzcGFjZSBUZXN0c1xGZWF0dXJlOwoKdXNlIEFwcFxNb2RlbHNcQ2FydDsKdXNlIEFwcFxNb2RlbHNcQ2F0ZWdvcnk7CnVzZSBBcHBcTW9kZWxzXEZhdm9yaXRlOwp1c2UgQXBwXE1vZGVsc1xNZXNzYWdlOwp1c2UgQXBwXE1vZGVsc1xQcm9kdWN0Owp1c2UgQXBwXE1vZGVsc1xVc2VyOwp1c2UgQXBwXE1vZGVsc1xWZW5kb3I7CnVzZSBJbGx1bWluYXRlXEZvdW5kYXRpb25cVGVzdGluZ1xSZWZyZXNoRGF0YWJhc2U7CnVzZSBJbGx1bWluYXRlXFN1cHBvcnRcRmFjYWRlc1xEQjsKdXNlIFRlc3RzXFRlc3RDYXNlOwoKY2xhc3MgTWFya2V0cGxhY2VOYXZpZ2F0aW9uVGVzdCBleHRlbmRzIFRlc3RDYXNlCnsKICAgIHVzZSBSZWZyZXNoRGF0YWJhc2U7CgogICAgcHJpdmF0ZSBmdW5jdGlvbiBjYXRhbG9nKFVzZXIgJG93bmVyKTogYXJyYXkKICAgIHsKICAgICAgICAkY2F0ZWdvcnkgPSBEQjo6dGFibGUoJ2NhdGVnb3JpZXMnKS0+aW5zZXJ0R2V0SWQoWwogICAgICAgICAgICAndXNlcl9pZCcgPT4gJG93bmVyLT5pZCwKICAgICAgICAgICAgJ2NhdGVnb3J5X25hbWUnID0+ICdOYXZpZ2F0aW9uIGNhdGVnb3J5ICcgLiB1bmlxaWQoKSwKICAgICAgICAgICAgJ3N0YXR1cycgPT4gJ0FjdGl2ZScsCiAgICAgICAgICAgICdpbWFnZScgPT4gJycsCiAgICAgICAgICAgICdjcmVhdGVkX2F0JyA9PiBub3coKSwKICAgICAgICAgICAgJ3VwZGF0ZWRfYXQnID0+IG5vdygpLAogICAgICAgIF0pOwogICAgICAgICR1bml0ID0gREI6OnRhYmxlKCd1bml0cycpLT5pbnNlcnRHZXRJZChbCiAgICAgICAgICAgICd1c2VyX2lkJyA9PiAkb3duZXItPmlkLAogICAgICAgICAgICAndW5pdF9uYW1lJyA9PiAnTmF2aWdhdGlvbiB1bml0ICcgLiB1bmlxaWQoKSwKICAgICAgICAgICAgJ3N0YXR1cycgPT4gJ0FjdGl2ZScsCiAgICAgICAgICAgICdjcmVhdGVkX2F0JyA9PiBub3coKSwKICAgICAgICAgICAgJ3VwZGF0ZWRfYXQnID0+IG5vdygpLAogICAgICAgIF0pOwoKICAgICAgICByZXR1cm4gWyRjYXRlZ29yeSwgJHVuaXRdOwogICAgfQoKICAgIHByaXZhdGUgZnVuY3Rpb24gcHJvZHVjdChWZW5kb3IgJHZlbmRvciwgaW50ICRjYXRlZ29yeSwgaW50ICR1bml0LCBzdHJpbmcgJG5hbWUpOiBQcm9kdWN0CiAgICB7CiAgICAgICAgJHByb2R1Y3QgPSBQcm9kdWN0Ojpmb3JjZUNyZWF0ZShbCiAgICAgICAgICAgICd2ZW5kb3JfaWQnID0+ICR2ZW5kb3ItPmlkLAogICAgICAgICAgICAnY2F0ZWdvcnlfaWQnID0+ICRjYXRlZ29yeSwKICAgICAgICAgICAgJ3VuaXRfaWQnID0+ICR1bml0LAogICAgICAgICAgICAncHJvZHVjdF9uYW1lJyA9PiAkbmFtZSwKICAgICAgICAgICAgJ3Byb2R1Y3RfcHJpY2UnID0+IDEwLAogICAgICAgICAgICAncHJvZHVjdF9zdG9jaycgPT4gMjAsCiAgICAgICAgICAgICdkZWxpdmVyeV9kdXJhdGlvbicgPT4gMiwKICAgICAgICAgICAgJ2RlbGl2ZXJ5X2R1cmF0aW9uX3VuaXQnID0+ICdEYXlzJywKICAgICAgICAgICAgJ2RlbGl2ZXJ5X2NoYXJnZScgPT4gMCwKICAgICAgICAgICAgJ2lzX2RlbGl2ZXJ5X2ZyZWUnID0+IDEsCiAgICAgICAgICAgICdhdmFpbGFiaWxpdHlfdHlwZScgPT4gJ3NlbGVjdGVkJywKICAgICAgICAgICAgJ2NvdW50cnknID0+ICdVUycsCiAgICAgICAgICAgICdzdGF0dXMnID0+ICdBY3RpdmUnLAogICAgICAgIF0pOwoKICAgICAgICAkY291bnRyeUlkID0gREI6OnRhYmxlKCdjb3VudHJpZXMnKS0+d2hlcmUoJ2NvZGUnLCAnVVMnKS0+dmFsdWUoJ2lkJyk7CiAgICAgICAgaWYgKCRjb3VudHJ5SWQpIHsKICAgICAgICAgICAgJHByb2R1Y3QtPmF2YWlsYWJpbGl0eUNvdW50cmllcygpLT5zeW5jKFskY291bnRyeUlkXSk7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gJHByb2R1Y3Q7CiAgICB9CgogICAgcHVibGljIGZ1bmN0aW9uIHRlc3RfbmF2aWdhdGlvbl91c2VzX3JlYWxfY291bnRzX2FuZF9oaWRlc19zZWxsZXJfY29udHJvbHNfZm9yX2J1eWVycygpOiB2b2lkCiAgICB7CiAgICAgICAgJG93bmVyID0gVXNlcjo6ZmFjdG9yeSgpLT5jcmVhdGUoWydyb2xlJyA9PiAnc2VsbGVyJ10pOwogICAgICAgICR2ZW5kb3IgPSBWZW5kb3I6OmNyZWF0ZShbJ3VzZXJfaWQnID0+ICRvd25lci0+aWQsICdiYWxhbmNlJyA9PiAwXSk7CiAgICAgICAgWyRjYXRlZ29yeSwgJHVuaXRdID0gJHRoaXMtPmNhdGFsb2coJG93bmVyKTsKICAgICAgICAkcHJvZHVjdCA9ICR0aGlzLT5wcm9kdWN0KCR2ZW5kb3IsICRjYXRlZ29yeSwgJHVuaXQsICdOYXZpZ2F0aW9uIHByb2R1Y3QnKTsKICAgICAgICAkYnV5ZXIgPSBVc2VyOjpmYWN0b3J5KCktPmNyZWF0ZShbJ3JvbGUnID0+ICdidXllcicsICdjb3VudHJ5JyA9PiAnSFQnXSk7CiAgICAgICAgJHNlbGxlciA9IFVzZXI6OmZhY3RvcnkoKS0+Y3JlYXRlKFsncm9sZScgPT4gJ3NlbGxlcicsICdjb3VudHJ5JyA9PiAnVVMnXSk7CiAgICAgICAgVmVuZG9yOjpjcmVhdGUoWyd1c2VyX2lkJyA9PiAkc2VsbGVyLT5pZCwgJ2JhbGFuY2UnID0+IDBdKTsKCiAgICAgICAgJGNhcnQgPSBDYXJ0OjpjcmVhdGUoWyd1c2VyX2lkJyA9PiAkYnV5ZXItPmlkXSk7CiAgICAgICAgJGNhcnQtPml0ZW1zKCktPmNyZWF0ZShbJ3Byb2R1Y3RfaWQnID0+ICRwcm9kdWN0LT5pZCwgJ3F1YW50aXR5JyA9PiAzXSk7CiAgICAgICAgRmF2b3JpdGU6OmNyZWF0ZShbJ3VzZXJfaWQnID0+ICRidXllci0+aWQsICdwcm9kdWN0X2lkJyA9PiAkcHJvZHVjdC0+aWRdKTsKICAgICAgICBNZXNzYWdlOjpjcmVhdGUoWwogICAgICAgICAgICAnc2VuZGVyX2lkJyA9PiAkb3duZXItPmlkLAogICAgICAgICAgICAncmVjaXBpZW50X2lkJyA9PiAkYnV5ZXItPmlkLAogICAgICAgICAgICAnc3ViamVjdCcgPT4gJ1dob2xlc2FsZSBlbnF1aXJ5JywKICAgICAgICAgICAgJ2JvZHknID0+ICdQbGVhc2Ugc2VuZCBhIHF1b3RlLicsCiAgICAgICAgXSk7CiAgICAgICAgREI6OnRhYmxlKCdub3RpZmljYXRpb25zJyktPmluc2VydChbCiAgICAgICAgICAgICdpZCcgPT4gKHN0cmluZykgXElsbHVtaW5hdGVcU3VwcG9ydFxTdHI6OnV1aWQoKSwKICAgICAgICAgICAgJ3VzZXJfaWQnID0+ICRidXllci0+aWQsCiAgICAgICAgICAgICd0eXBlJyA9PiAnb3JkZXInLAogICAgICAgICAgICAnZGF0YScgPT4ganNvbl9lbmNvZGUoWydtZXNzYWdlJyA9PiAnTmV3IG9yZGVyIHVwZGF0ZSddKSwKICAgICAgICAgICAgJ2NyZWF0ZWRfYXQnID0+IG5vdygpLAogICAgICAgICAgICAndXBkYXRlZF9hdCcgPT4gbm93KCksCiAgICAgICAgXSk7CgogICAgICAgICR0aGlzLT5hY3RpbmdBcygkYnV5ZXIpLT5nZXQocm91dGUoJ21hcmtldHBsYWNlLmhvbWUnKSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ2NsYXNzPSJuYXYtY291bnQiPjM8L3NwYW4+JywgZmFsc2UpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCdjbGFzcz0ibmF2LWNvdW50Ij4xPC9zcGFuPicsIGZhbHNlKQogICAgICAgICAgICAtPmFzc2VydFNlZSgnZGF0YS1tZW51LW9wZW4nLCBmYWxzZSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoX18oJ21hcmtldHBsYWNlLm5hdi53aG9sZXNhbGUnKSkKICAgICAgICAgICAgLT5hc3NlcnREb250U2VlKCdzZWxsZXItcXVpY2stYWN0aW9ucycsIGZhbHNlKTsKCiAgICAgICAgJHRoaXMtPmFjdGluZ0FzKCRzZWxsZXIpLT5nZXQocm91dGUoJ21hcmtldHBsYWNlLmhvbWUnKSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ3NlbGxlci1xdWljay1hY3Rpb25zJywgZmFsc2UpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKF9fKCdtYXJrZXRwbGFjZS5uYXYucXVpY2tfc2VsbGVyX2FjdGlvbnMnKSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUocm91dGUoJ3NlbGxlci5wcm9kdWN0LWNyZWF0ZScpLCBmYWxzZSk7CiAgICB9CgogICAgcHVibGljIGZ1bmN0aW9uIHRlc3Rfc2VhcmNoX3N1Z2dlc3Rpb25zX2FyZV9jYXRlZ29yaXplZF9hbmRfZm9sbG93X2Jyb3dzZV9tYXJrZXQoKTogdm9pZAogICAgewogICAgICAgICRvd25lciA9IFVzZXI6OmZhY3RvcnkoKS0+Y3JlYXRlKFsncm9sZScgPT4gJ3NlbGxlciddKTsKICAgICAgICAkdmVuZG9yID0gVmVuZG9yOjpjcmVhdGUoWyd1c2VyX2lkJyA9PiAkb3duZXItPmlkLCAnYmFsYW5jZScgPT4gMF0pOwogICAgICAgIFskY2F0ZWdvcnksICR1bml0XSA9ICR0aGlzLT5jYXRhbG9nKCRvd25lcik7CiAgICAgICAgJGhhaXRpID0gJHRoaXMtPnByb2R1Y3QoJHZlbmRvciwgJGNhdGVnb3J5LCAkdW5pdCwgJ01hbmdvIHdob2xlc2FsZSBIYWl0aScpOwogICAgICAgICRoYWl0aS0+dXBkYXRlKFsnYXZhaWxhYmlsaXR5X3R5cGUnID0+ICdzZWxlY3RlZCddKTsKICAgICAgICAkaGFpdGktPmF2YWlsYWJpbGl0eUNvdW50cmllcygpLT5zeW5jKFtEQjo6dGFibGUoJ2NvdW50cmllcycpLT53aGVyZSgnY29kZScsICdIVCcpLT52YWx1ZSgnaWQnKV0pOwogICAgICAgICR1bml0ZWRTdGF0ZXMgPSAkdGhpcy0+cHJvZHVjdCgkdmVuZG9yLCAkY2F0ZWdvcnksICR1bml0LCAnTWFuZ28gd2hvbGVzYWxlIFVuaXRlZCBTdGF0ZXMnKTsKICAgICAgICAkdW5pdGVkU3RhdGVzLT51cGRhdGUoWydhdmFpbGFiaWxpdHlfdHlwZScgPT4gJ3NlbGVjdGVkJ10pOwogICAgICAgICR1bml0ZWRTdGF0ZXMtPmF2YWlsYWJpbGl0eUNvdW50cmllcygpLT5zeW5jKFtEQjo6dGFibGUoJ2NvdW50cmllcycpLT53aGVyZSgnY29kZScsICdVUycpLT52YWx1ZSgnaWQnKV0pOwogICAgICAgICRidXllciA9IFVzZXI6OmZhY3RvcnkoKS0+Y3JlYXRlKFsncm9sZScgPT4gJ2J1eWVyJywgJ2NvdW50cnknID0+ICdIVCddKTsKCiAgICAgICAgJHRoaXMtPmFjdGluZ0FzKCRidXllciktPndpdGhTZXNzaW9uKFsnbWFya2V0cGxhY2VfY291bnRyeScgPT4gJ1VTJ10pCiAgICAgICAgICAgIC0+Z2V0SnNvbihyb3V0ZSgnbWFya2V0cGxhY2Uuc2VhcmNoLnN1Z2dlc3Rpb25zJywgWydxJyA9PiAnTWFuZ28nXSkpCiAgICAgICAgICAgIC0+YXNzZXJ0T2soKQogICAgICAgICAgICAtPmFzc2VydEpzb25GcmFnbWVudChbJ3RpdGxlJyA9PiAkaGFpdGktPnByb2R1Y3RfbmFtZV0pCiAgICAgICAgICAgIC0+YXNzZXJ0SnNvbk1pc3NpbmcoWyd0aXRsZScgPT4gJHVuaXRlZFN0YXRlcy0+cHJvZHVjdF9uYW1lXSkKICAgICAgICAgICAgLT5hc3NlcnRKc29uRnJhZ21lbnQoWydrZXknID0+ICdwcm9kdWN0cyddKTsKICAgIH0KCiAgICBwdWJsaWMgZnVuY3Rpb24gdGVzdF9hdXRoZW50aWNhdGVkX21hcmtldF9zZWxlY3Rvcl9pc19sb2NrZWRfdG9fYWNjb3VudF9jb3VudHJ5KCk6IHZvaWQKICAgIHsKICAgICAgICAkYnV5ZXIgPSBVc2VyOjpmYWN0b3J5KCktPmNyZWF0ZShbJ3JvbGUnID0+ICdidXllcicsICdjb3VudHJ5JyA9PiAnSFQnXSk7CgogICAgICAgICR0aGlzLT5hY3RpbmdBcygkYnV5ZXIpLT5nZXQocm91dGUoJ21hcmtldHBsYWNlLmhvbWUnKSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ2NvdW50cnktc2VsZWN0b3ItbG9ja2VkJywgZmFsc2UpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKF9fKCdtYXJrZXRwbGFjZS5hY2NvdW50X2NvdW50cnlfbG9ja2VkJykpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCdIVCcsIGZhbHNlKTsKCiAgICAgICAgJHRoaXMtPmFjdGluZ0FzKCRidXllciktPnBvc3Qocm91dGUoJ21hcmtldHBsYWNlLmNvdW50cnkudXBkYXRlJywgJ1VTJykpCiAgICAgICAgICAgIC0+YXNzZXJ0U2Vzc2lvbkhhcygnbWFya2V0cGxhY2VfY291bnRyeScsICdIVCcpOwoKICAgICAgICAkYnV5ZXItPnJlZnJlc2goKTsKICAgICAgICAkdGhpcy0+YXNzZXJ0U2FtZSgnSFQnLCAkYnV5ZXItPmNvdW50cnkpOwogICAgICAgICR0aGlzLT5hc3NlcnRTYW1lKCdIVCcsICRidXllci0+bWFya2V0cGxhY2VfY291bnRyeSk7CiAgICB9CgogICAgcHVibGljIGZ1bmN0aW9uIHRlc3RfaG9tZV9oZXJvX2V4cGxhaW5zX3dob2xlc2FsZV9hbmRfdXNlc19yZWFsX2N0YV9yb3V0ZXMoKTogdm9pZAogICAgewogICAgICAgICR0aGlzLT5nZXQocm91dGUoJ21hcmtldHBsYWNlLmhvbWUnKSkKICAgICAgICAgICAgLT5hc3NlcnRPaygpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCdGTEVYQSBXSE9MRVNBTEUnKQogICAgICAgICAgICAtPmFzc2VydFNlZSgnRmxleGEgV2hvbGVzYWxlJykKICAgICAgICAgICAgLT5hc3NlcnRTZWUoX18oJ21hcmtldHBsYWNlLmhlcm9fdGl0bGUnKSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoX18oJ21hcmtldHBsYWNlLmhlcm9fZGVzY3JpcHRpb24nKSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ3dob2xlc2FsZS10cnVjay1oZXJvLnBuZycpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCdoZXJvLWludHJvJywgZmFsc2UpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCdoZXJvLXZpc3VhbCcsIGZhbHNlKQogICAgICAgICAgICAtPmFzc2VydFNlZSgnaHJlZj0iJy5yb3V0ZSgnbWFya2V0cGxhY2Uuc2VhcmNoJykuJyInLCBmYWxzZSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ2hyZWY9Iicucm91dGUoJ3NpZ251cCcsIFsncm9sZScgPT4gJ3NlbGxlciddKS4nIicsIGZhbHNlKQogICAgICAgICAgICAtPmFzc2VydFNlZShfXygnbWFya2V0cGxhY2UuaGVyb19ub3RlX2NvcHknKSkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ2RhdGEtY2F0ZWdvcnktc2VhcmNoLWZvcj0ibWFya2V0cGxhY2UtY2F0ZWdvcnktZmlsdGVyIicsIGZhbHNlKQogICAgICAgICAgICAtPmFzc2VydFNlZShfXygnbWFya2V0cGxhY2UuY2F0ZWdvcnlfc2VhcmNoX3BsYWNlaG9sZGVyJykpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKF9fKCdtYXJrZXRwbGFjZS5zZWFyY2hfY2F0ZWdvcnlfYnV0dG9uJykpCiAgICAgICAgICAgIC0+YXNzZXJ0RG9udFNlZSgnQ29ubmVjdCB3aXRoIHdob2xlc2FsZSBidXllcnMsIHNlbGxlcnMsIHN1cHBsaWVycycpOwogICAgfQoKICAgIHB1YmxpYyBmdW5jdGlvbiB0ZXN0X3NlbGxlcl9ob21lX2hlcm9fbGlua3Nfc3RhcnRfc2VsbGluZ190b19hZGRfcHJvZHVjdCgpOiB2b2lkCiAgICB7CiAgICAgICAgJHNlbGxlciA9IFVzZXI6OmZhY3RvcnkoKS0+Y3JlYXRlKFsncm9sZScgPT4gJ3NlbGxlciddKTsKICAgICAgICBWZW5kb3I6OmNyZWF0ZShbJ3VzZXJfaWQnID0+ICRzZWxsZXItPmlkLCAnYmFsYW5jZScgPT4gMF0pOwoKICAgICAgICAkdGhpcy0+YWN0aW5nQXMoJHNlbGxlcikKICAgICAgICAgICAgLT5nZXQocm91dGUoJ21hcmtldHBsYWNlLmhvbWUnKSkKICAgICAgICAgICAgLT5hc3NlcnRPaygpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCdocmVmPSInLnJvdXRlKCdzZWxsZXIucHJvZHVjdC1jcmVhdGUnKS4nIicsIGZhbHNlKTsKICAgIH0KCiAgICBwdWJsaWMgZnVuY3Rpb24gdGVzdF9kZWZhdWx0X3dob2xlc2FsZV9jYXRlZ29yaWVzX2FyZV9hdmFpbGFibGVfdG9fc2VsbGVyc19hbmRfYnV5ZXJzKCk6IHZvaWQKICAgIHsKICAgICAgICAkZXhwZWN0ZWQgPSBbCiAgICAgICAgICAgICdBZ3JpY3VsdHVyZSAmIExpdmVzdG9jaycsCiAgICAgICAgICAgICdBdXRvbW90aXZlICYgUGFydHMnLAogICAgICAgICAgICAnQmFieSAmIENoaWxkcmVuJywKICAgICAgICAgICAgJ0JlYXV0eSwgUGVyZnVtZSAmIFBlcnNvbmFsIENhcmUnLAogICAgICAgICAgICAnQ29uc3RydWN0aW9uICYgSGFyZHdhcmUnLAogICAgICAgICAgICAnRWxlY3Ryb25pY3MgJiBQaG9uZXMnLAogICAgICAgICAgICAnRmFzaGlvbiAmIENsb3RoaW5nJywKICAgICAgICAgICAgJ0Zvb2QgJiBCZXZlcmFnZXMnLAogICAgICAgICAgICAnSGVhbHRoICYgV2VsbG5lc3MnLAogICAgICAgICAgICAnSG9tZSAmIEtpdGNoZW4nLAogICAgICAgICAgICAnSG9tZSBBcHBsaWFuY2VzJywKICAgICAgICAgICAgJ0pld2VscnkgJiBBY2Nlc3NvcmllcycsCiAgICAgICAgICAgICdPdGhlciBQcm9kdWN0cycsCiAgICAgICAgICAgICdQcm9mZXNzaW9uYWwgJiBJbmR1c3RyaWFsIFN1cHBsaWVzJywKICAgICAgICAgICAgJ1Nwb3J0cyAmIExlaXN1cmUnLAogICAgICAgICAgICAnVXNlZCBQcm9kdWN0cycsCiAgICAgICAgXTsKCiAgICAgICAgJHRoaXMtPmFzc2VydFNhbWUoMTYsIENhdGVnb3J5OjphY3RpdmUoKS0+d2hlcmVOb3ROdWxsKCdzbHVnJyktPmNvdW50KCkpOwogICAgICAgIGZvcmVhY2ggKCRleHBlY3RlZCBhcyAkY2F0ZWdvcnlOYW1lKSB7CiAgICAgICAgICAgICR0aGlzLT5hc3NlcnREYXRhYmFzZUhhcygnY2F0ZWdvcmllcycsIFsKICAgICAgICAgICAgICAgICdjYXRlZ29yeV9uYW1lJyA9PiAkY2F0ZWdvcnlOYW1lLAogICAgICAgICAgICAgICAgJ3N0YXR1cycgPT4gJ0FjdGl2ZScsCiAgICAgICAgICAgIF0pOwogICAgICAgIH0KCiAgICAgICAgJHNlbGxlciA9IFVzZXI6OmZhY3RvcnkoKS0+Y3JlYXRlKFsncm9sZScgPT4gJ3NlbGxlciddKTsKICAgICAgICAkdmVuZG9yID0gVmVuZG9yOjpjcmVhdGUoWyd1c2VyX2lkJyA9PiAkc2VsbGVyLT5pZCwgJ2JhbGFuY2UnID0+IDBdKTsKICAgICAgICAkdGhpcy0+YWN0aW5nQXMoJHNlbGxlcikKICAgICAgICAgICAgLT5nZXQocm91dGUoJ3NlbGxlci5wcm9kdWN0LWNyZWF0ZScpKQogICAgICAgICAgICAtPmFzc2VydE9rKCkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ25hbWU9ImNhdGVnb3J5X2lkIicsIGZhbHNlKQogICAgICAgICAgICAtPmFzc2VydFNlZSgnZGF0YS1jYXRlZ29yeS1zZWFyY2gtZm9yPSJzZWxsZXItY2F0ZWdvcnktc2VsZWN0IicsIGZhbHNlKQogICAgICAgICAgICAtPmFzc2VydFNlZShfXygnbWFya2V0cGxhY2Uuc2VhcmNoX2NhdGVnb3J5X2J1dHRvbicpKQogICAgICAgICAgICAtPmFzc2VydFNlZSgnRm9vZCAmYW1wOyBCZXZlcmFnZXMnLCBmYWxzZSk7CiAgICB9CgogICAgcHVibGljIGZ1bmN0aW9uIHRlc3RfY2F0ZWdvcnlfc3lub255bXNfZHJpdmVfY2F0ZWdvcnlfZmlyc3Rfc2VhcmNoX2FuZF9hdmFpbGFibGVfcHJvZHVjdF9yZXN1bHRzKCk6IHZvaWQKICAgIHsKICAgICAgICAkc2VsbGVyID0gVXNlcjo6ZmFjdG9yeSgpLT5jcmVhdGUoWwogICAgICAgICAgICAncm9sZScgPT4gJ3NlbGxlcicsCiAgICAgICAgICAgICduYW1lJyA9PiAnSXNsYW5kIFdob2xlc2FsZScsCiAgICAgICAgICAgICdjb21wYW55X25hbWUnID0+ICdJc2xhbmQgV2hvbGVzYWxlJywKICAgICAgICAgICAgJ2NvdW50cnknID0+ICdIVCcsCiAgICAgICAgXSk7CiAgICAgICAgJHZlbmRvciA9IFZlbmRvcjo6Y3JlYXRlKFsndXNlcl9pZCcgPT4gJHNlbGxlci0+aWQsICdiYWxhbmNlJyA9PiAwXSk7CiAgICAgICAgWywgJHVuaXRdID0gJHRoaXMtPmNhdGFsb2coJHNlbGxlcik7CiAgICAgICAgJGJlYXV0eSA9IENhdGVnb3J5Ojp3aGVyZSgnc2x1ZycsICdiZWF1dHktcGVyZnVtZS1wZXJzb25hbC1jYXJlJyktPmZpcnN0T3JGYWlsKCk7CiAgICAgICAgJGF2YWlsYWJsZSA9ICR0aGlzLT5wcm9kdWN0KCR2ZW5kb3IsICRiZWF1dHktPmlkLCAkdW5pdCwgJ0x1eHVyeSB3aG9sZXNhbGUgY29sbGVjdGlvbicpOwogICAgICAgICRhdmFpbGFibGUtPmF2YWlsYWJpbGl0eUNvdW50cmllcygpLT5zeW5jKFtEQjo6dGFibGUoJ2NvdW50cmllcycpLT53aGVyZSgnY29kZScsICdIVCcpLT52YWx1ZSgnaWQnKV0pOwogICAgICAgICR1bmF2YWlsYWJsZSA9ICR0aGlzLT5wcm9kdWN0KCR2ZW5kb3IsICRiZWF1dHktPmlkLCAkdW5pdCwgJ092ZXJzZWFzIHdob2xlc2FsZSBjb2xsZWN0aW9uJyk7CiAgICAgICAgJHVuYXZhaWxhYmxlLT5hdmFpbGFiaWxpdHlDb3VudHJpZXMoKS0+c3luYyhbREI6OnRhYmxlKCdjb3VudHJpZXMnKS0+d2hlcmUoJ2NvZGUnLCAnVVMnKS0+dmFsdWUoJ2lkJyldKTsKICAgICAgICAkYnV5ZXIgPSBVc2VyOjpmYWN0b3J5KCktPmNyZWF0ZShbJ3JvbGUnID0+ICdidXllcicsICdjb3VudHJ5JyA9PiAnSFQnXSk7CgogICAgICAgICRyZXNwb25zZSA9ICR0aGlzLT5hY3RpbmdBcygkYnV5ZXIpCiAgICAgICAgICAgIC0+Z2V0SnNvbihyb3V0ZSgnbWFya2V0cGxhY2Uuc2VhcmNoLnN1Z2dlc3Rpb25zJywgWydxJyA9PiAncGFyZnVtJ10pKQogICAgICAgICAgICAtPmFzc2VydE9rKCkKICAgICAgICAgICAgLT5hc3NlcnRKc29uUGF0aCgnZ3JvdXBzLjAua2V5JywgJ2NhdGVnb3JpZXMnKQogICAgICAgICAgICAtPmFzc2VydEpzb25QYXRoKCdncm91cHMuMC5pdGVtcy4wLnRpdGxlJywgJ0JlYXV0eSwgUGVyZnVtZSAmIFBlcnNvbmFsIENhcmUnKQogICAgICAgICAgICAtPmFzc2VydEpzb25GcmFnbWVudChbJ3RpdGxlJyA9PiAkYXZhaWxhYmxlLT5wcm9kdWN0X25hbWVdKQogICAgICAgICAgICAtPmFzc2VydEpzb25NaXNzaW5nKFsndGl0bGUnID0+ICR1bmF2YWlsYWJsZS0+cHJvZHVjdF9uYW1lXSkKICAgICAgICAgICAgLT5hc3NlcnRKc29uRnJhZ21lbnQoWyd0aXRsZScgPT4gJ0lzbGFuZCBXaG9sZXNhbGUnXSk7CgogICAgICAgICRjYXRlZ29yeVVybCA9ICRyZXNwb25zZS0+anNvbignZ3JvdXBzLjAuaXRlbXMuMC51cmwnKTsKICAgICAgICAkdGhpcy0+YXNzZXJ0U3RyaW5nQ29udGFpbnNTdHJpbmcoJ2NhdGVnb3J5PScgLiAkYmVhdXR5LT5pZCwgJGNhdGVnb3J5VXJsKTsKCiAgICAgICAgJHRoaXMtPmFjdGluZ0FzKCRidXllcikKICAgICAgICAgICAgLT5nZXQocm91dGUoJ21hcmtldHBsYWNlLnNlYXJjaCcsIFsncScgPT4gJ3BhcmZ1bSddKSkKICAgICAgICAgICAgLT5hc3NlcnRPaygpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCRhdmFpbGFibGUtPnByb2R1Y3RfbmFtZSkKICAgICAgICAgICAgLT5hc3NlcnREb250U2VlKCR1bmF2YWlsYWJsZS0+cHJvZHVjdF9uYW1lKTsKICAgIH0KCiAgICBwdWJsaWMgZnVuY3Rpb24gdGVzdF9jYXRlZ29yeV9uYW1lc19hcmVfbG9jYWxpemVkX2FuZF9rZXl3b3JkX21ldGFkYXRhX3JlYWNoZXNfbGl2ZV9waWNrZXIoKTogdm9pZAogICAgewogICAgICAgICRiZWF1dHkgPSBDYXRlZ29yeTo6d2hlcmUoJ3NsdWcnLCAnYmVhdXR5LXBlcmZ1bWUtcGVyc29uYWwtY2FyZScpLT5maXJzdE9yRmFpbCgpOwoKICAgICAgICAkdGhpcy0+d2l0aFNlc3Npb24oW2NvbmZpZygnbG9jYWxpemF0aW9uLnNlc3Npb25fa2V5JywgJ2xvY2FsZScpID0+ICdmciddKQogICAgICAgICAgICAtPmdldChyb3V0ZSgnbWFya2V0cGxhY2UuaG9tZScpKQogICAgICAgICAgICAtPmFzc2VydE9rKCkKICAgICAgICAgICAgLT5hc3NlcnRTZWUoJ0JlYXV0w6ksIFBhcmZ1bXMgJmFtcDsgU29pbnMgcGVyc29ubmVscycsIGZhbHNlKQogICAgICAgICAgICAtPmFzc2VydFNlZSgnZGF0YS1jYXRlZ29yeS1sYWJlbD0iYmVhdXTDqSwgcGFyZnVtcyAmYW1wOyBzb2lucyBwZXJzb25uZWxzIGJlYXV0eSwgcGVyZnVtZSAmYW1wOyBwZXJzb25hbCBjYXJlJywgZmFsc2UpCiAgICAgICAgICAgIC0+YXNzZXJ0U2VlKCdwYXJmdW0nLCBmYWxzZSk7CgogICAgICAgICR0aGlzLT5hc3NlcnRTYW1lKCdCZWF1dMOpLCBQYXJmdW1zICYgU29pbnMgcGVyc29ubmVscycsICRiZWF1dHktPmRpc3BsYXlfbmFtZSk7CiAgICB9CgogICAgcHVibGljIGZ1bmN0aW9uIHRlc3RfcmVxdWVzdGVkX2NhdGVnb3J5X2tleXdvcmRzX2FuZF9zeW5vbnltc19tYXRjaF90aGVfZXhwZWN0ZWRfdGF4b25vbXkoKTogdm9pZAogICAgewogICAgICAgICRleGFtcGxlcyA9IFsKICAgICAgICAgICAgJ3BhcmZ1bScgPT4gJ2JlYXV0eS1wZXJmdW1lLXBlcnNvbmFsLWNhcmUnLAogICAgICAgICAgICAnYmVhdXTDqScgPT4gJ2JlYXV0eS1wZXJmdW1lLXBlcnNvbmFsLWNhcmUnLAogICAgICAgICAgICAndMOpbMOpcGhvbmUnID0+ICdlbGVjdHJvbmljcy1waG9uZXMnLAogICAgICAgICAgICAnb3JkaW5hdGV1cicgPT4gJ2VsZWN0cm9uaWNzLXBob25lcycsCiAgICAgICAgICAgICd2b2l0dXJlJyA9PiAnYXV0b21vdGl2ZS1wYXJ0cycsCiAgICAgICAgICAgICdhdXRvJyA9PiAnYXV0b21vdGl2ZS1wYXJ0cycsCiAgICAgICAgICAgICdtYWlzb24nID0+ICdob21lLWtpdGNoZW4nLAogICAgICAgICAgICAnbWV1YmxlJyA9PiAnaG9tZS1raXRjaGVuJywKICAgICAgICAgICAgJ2ZyaWdvJyA9PiAnaG9tZS1hcHBsaWFuY2VzJywKICAgICAgICAgICAgJ2LDqWLDqScgPT4gJ2JhYnktY2hpbGRyZW4nLAogICAgICAgICAgICAnY29uc3RydWN0aW9uJyA9PiAnY29uc3RydWN0aW9uLWhhcmR3YXJlJywKICAgICAgICAgICAgJ2FncmljdWx0dXJlJyA9PiAnYWdyaWN1bHR1cmUtbGl2ZXN0b2NrJywKICAgICAgICAgICAgJ2Jpam91eCcgPT4gJ2pld2VscnktYWNjZXNzb3JpZXMnLAogICAgICAgICAgICAndsOqdGVtZW50JyA9PiAnZmFzaGlvbi1jbG90aGluZycsCiAgICAgICAgICAgICdjaGF1c3N1cmUnID0+ICdmYXNoaW9uLWNsb3RoaW5nJywKICAgICAgICAgICAgJ25vdXJyaXR1cmUnID0+ICdmb29kLWJldmVyYWdlcycsCiAgICAgICAgICAgICdib2lzc29uJyA9PiAnZm9vZC1iZXZlcmFnZXMnLAogICAgICAgIF07CgogICAgICAgIGZvcmVhY2ggKCRleGFtcGxlcyBhcyAkdGVybSA9PiAkc2x1ZykgewogICAgICAgICAgICAkdGhpcy0+YXNzZXJ0VHJ1ZSgKICAgICAgICAgICAgICAgIENhdGVnb3J5OjphY3RpdmUoKS0+bWF0Y2hpbmcoJHRlcm0pLT53aGVyZSgnc2x1ZycsICRzbHVnKS0+ZXhpc3RzKCksCiAgICAgICAgICAgICAgICAieyR0ZXJtfSBzaG91bGQgbWF0Y2ggeyRzbHVnfS4iCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfQp9
+<?php
+
+namespace Tests\Feature;
+
+use App\Models\Cart;
+use App\Models\Category;
+use App\Models\Favorite;
+use App\Models\Message;
+use App\Models\Product;
+use App\Models\User;
+use App\Models\Vendor;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\DB;
+use Tests\TestCase;
+
+class MarketplaceNavigationTest extends TestCase
+{
+    use RefreshDatabase;
+
+    private function catalog(User $owner): array
+    {
+        $category = DB::table('categories')->insertGetId([
+            'user_id' => $owner->id,
+            'category_name' => 'Navigation category ' . uniqid(),
+            'status' => 'Active',
+            'image' => '',
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+        $unit = DB::table('units')->insertGetId([
+            'user_id' => $owner->id,
+            'unit_name' => 'Navigation unit ' . uniqid(),
+            'status' => 'Active',
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        return [$category, $unit];
+    }
+
+    private function product(Vendor $vendor, int $category, int $unit, string $name): Product
+    {
+        $product = Product::forceCreate([
+            'vendor_id' => $vendor->id,
+            'category_id' => $category,
+            'unit_id' => $unit,
+            'product_name' => $name,
+            'product_price' => 10,
+            'product_stock' => 20,
+            'delivery_duration' => 2,
+            'delivery_duration_unit' => 'Days',
+            'delivery_charge' => 0,
+            'is_delivery_free' => 1,
+            'availability_type' => 'selected',
+            'country' => 'US',
+            'status' => 'Active',
+        ]);
+
+        $countryId = DB::table('countries')->where('code', 'US')->value('id');
+        if ($countryId) {
+            $product->availabilityCountries()->sync([$countryId]);
+        }
+
+        return $product;
+    }
+
+    public function test_navigation_uses_real_counts_and_hides_seller_controls_for_buyers(): void
+    {
+        $owner = User::factory()->create(['role' => 'seller']);
+        $vendor = Vendor::create(['user_id' => $owner->id, 'balance' => 0]);
+        [$category, $unit] = $this->catalog($owner);
+        $product = $this->product($vendor, $category, $unit, 'Navigation product');
+        $buyer = User::factory()->create(['role' => 'buyer', 'country' => 'HT']);
+        $seller = User::factory()->create(['role' => 'seller', 'country' => 'US']);
+        Vendor::create(['user_id' => $seller->id, 'balance' => 0]);
+
+        $cart = Cart::create(['user_id' => $buyer->id]);
+        $cart->items()->create(['product_id' => $product->id, 'quantity' => 3]);
+        Favorite::create(['user_id' => $buyer->id, 'product_id' => $product->id]);
+        Message::create([
+            'sender_id' => $owner->id,
+            'recipient_id' => $buyer->id,
+            'subject' => 'Wholesale enquiry',
+            'body' => 'Please send a quote.',
+        ]);
+        DB::table('notifications')->insert([
+            'user_id' => $buyer->id,
+            'type' => 'order',
+            'data' => json_encode(['message' => 'New order update']),
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        $this->actingAs($buyer)->get(route('marketplace.home'))
+            ->assertSee('class="nav-count">3</span>', false)
+            ->assertSee('class="nav-count">1</span>', false)
+            ->assertSee('data-menu-open', false)
+            ->assertSee(__('marketplace.nav.wholesale'))
+            ->assertDontSee('seller-quick-actions', false);
+
+        $this->actingAs($seller)->get(route('marketplace.home'))
+            ->assertSee('seller-quick-actions', false)
+            ->assertSee(__('marketplace.nav.quick_seller_actions'))
+            ->assertSee(route('seller.product-create'), false);
+    }
+
+    public function test_search_suggestions_are_categorized_and_follow_browse_market(): void
+    {
+        $owner = User::factory()->create(['role' => 'seller']);
+        $vendor = Vendor::create(['user_id' => $owner->id, 'balance' => 0]);
+        [$category, $unit] = $this->catalog($owner);
+        $haiti = $this->product($vendor, $category, $unit, 'Mango wholesale Haiti');
+        $haiti->update(['availability_type' => 'selected']);
+        $haiti->availabilityCountries()->sync([DB::table('countries')->where('code', 'HT')->value('id')]);
+        $unitedStates = $this->product($vendor, $category, $unit, 'Mango wholesale United States');
+        $unitedStates->update(['availability_type' => 'selected']);
+        $unitedStates->availabilityCountries()->sync([DB::table('countries')->where('code', 'US')->value('id')]);
+        $buyer = User::factory()->create(['role' => 'buyer', 'country' => 'HT']);
+
+        $this->actingAs($buyer)->withSession(['marketplace_country' => 'US'])
+            ->getJson(route('marketplace.search.suggestions', ['q' => 'Mango']))
+            ->assertOk()
+            ->assertJsonFragment(['title' => $haiti->product_name])
+            ->assertJsonMissing(['title' => $unitedStates->product_name])
+            ->assertJsonFragment(['key' => 'products']);
+    }
+
+    public function test_authenticated_market_selector_is_locked_to_account_country(): void
+    {
+        $buyer = User::factory()->create(['role' => 'buyer', 'country' => 'HT']);
+
+        $this->actingAs($buyer)->get(route('marketplace.home'))
+            ->assertSee('country-selector-locked', false)
+            ->assertSee(__('marketplace.account_country_locked'))
+            ->assertSee('HT', false);
+
+        $this->actingAs($buyer)->post(route('marketplace.country.update', 'US'))
+            ->assertSessionHas('marketplace_country', 'HT');
+
+        $buyer->refresh();
+        $this->assertSame('HT', $buyer->country);
+        $this->assertSame('HT', $buyer->marketplace_country);
+    }
+
+    public function test_home_hero_explains_wholesale_and_uses_real_cta_routes(): void
+    {
+        $this->get(route('marketplace.home'))
+            ->assertOk()
+            ->assertSee('FLEXA WHOLESALE')
+            ->assertSee('Flexa Wholesale')
+            ->assertSee(__('marketplace.hero_title'))
+            ->assertSee(__('marketplace.hero_description'))
+            ->assertSee('wholesale-truck-hero.png')
+            ->assertSee('hero-intro', false)
+            ->assertSee('hero-visual', false)
+            ->assertSee('href="'.route('marketplace.search').'"', false)
+            ->assertSee('href="'.route('signup', ['role' => 'seller']).'"', false)
+            ->assertSee(__('marketplace.hero_note_copy'))
+            ->assertSee('data-category-search-for="marketplace-category-filter"', false)
+            ->assertSee(__('marketplace.category_search_placeholder'))
+            ->assertSee(__('marketplace.search_category_button'))
+            ->assertDontSee('Connect with wholesale buyers, sellers, suppliers');
+    }
+
+    public function test_seller_home_hero_links_start_selling_to_add_product(): void
+    {
+        $seller = User::factory()->create(['role' => 'seller']);
+        Vendor::create(['user_id' => $seller->id, 'balance' => 0]);
+
+        $this->actingAs($seller)
+            ->get(route('marketplace.home'))
+            ->assertOk()
+            ->assertSee('href="'.route('seller.product-create').'"', false);
+    }
+
+    public function test_default_wholesale_categories_are_available_to_sellers_and_buyers(): void
+    {
+        $expected = [
+            'Agriculture & Livestock',
+            'Automotive & Parts',
+            'Baby & Children',
+            'Beauty, Perfume & Personal Care',
+            'Construction & Hardware',
+            'Electronics & Phones',
+            'Fashion & Clothing',
+            'Food & Beverages',
+            'Health & Wellness',
+            'Home & Kitchen',
+            'Home Appliances',
+            'Jewelry & Accessories',
+            'Other Products',
+            'Professional & Industrial Supplies',
+            'Sports & Leisure',
+            'Used Products',
+        ];
+
+        $this->assertSame(16, Category::active()->whereNotNull('slug')->count());
+        foreach ($expected as $categoryName) {
+            $this->assertDatabaseHas('categories', [
+                'category_name' => $categoryName,
+                'status' => 'Active',
+            ]);
+        }
+
+        $seller = User::factory()->create(['role' => 'seller']);
+        $vendor = Vendor::create(['user_id' => $seller->id, 'balance' => 0]);
+        $this->actingAs($seller)
+            ->get(route('seller.product-create'))
+            ->assertOk()
+            ->assertSee('name="category_id"', false)
+            ->assertSee('data-category-search-for="seller-category-select"', false)
+            ->assertSee(__('marketplace.search_category_button'))
+            ->assertSee('Food &amp; Beverages', false);
+    }
+
+    public function test_category_synonyms_drive_category_first_search_and_available_product_results(): void
+    {
+        $seller = User::factory()->create([
+            'role' => 'seller',
+            'name' => 'Island Wholesale',
+            'company_name' => 'Island Wholesale',
+            'country' => 'HT',
+        ]);
+        $vendor = Vendor::create(['user_id' => $seller->id, 'balance' => 0]);
+        [, $unit] = $this->catalog($seller);
+        $beauty = Category::where('slug', 'beauty-perfume-personal-care')->firstOrFail();
+        $available = $this->product($vendor, $beauty->id, $unit, 'Luxury wholesale collection');
+        $available->availabilityCountries()->sync([DB::table('countries')->where('code', 'HT')->value('id')]);
+        $unavailable = $this->product($vendor, $beauty->id, $unit, 'Overseas wholesale collection');
+        $unavailable->availabilityCountries()->sync([DB::table('countries')->where('code', 'US')->value('id')]);
+        $buyer = User::factory()->create(['role' => 'buyer', 'country' => 'HT']);
+
+        $response = $this->actingAs($buyer)
+            ->getJson(route('marketplace.search.suggestions', ['q' => 'parfum']))
+            ->assertOk()
+            ->assertJsonPath('groups.0.key', 'categories')
+            ->assertJsonPath('groups.0.items.0.title', 'Beauty, Perfume & Personal Care')
+            ->assertJsonFragment(['title' => $available->product_name])
+            ->assertJsonMissing(['title' => $unavailable->product_name])
+            ->assertJsonFragment(['title' => 'Island Wholesale']);
+
+        $categoryUrl = $response->json('groups.0.items.0.url');
+        $this->assertStringContainsString('category=' . $beauty->id, $categoryUrl);
+
+        $this->actingAs($buyer)
+            ->get(route('marketplace.search', ['q' => 'parfum']))
+            ->assertOk()
+            ->assertSee($available->product_name)
+            ->assertDontSee($unavailable->product_name);
+    }
+
+    public function test_category_names_are_localized_and_keyword_metadata_reaches_live_picker(): void
+    {
+        $beauty = Category::where('slug', 'beauty-perfume-personal-care')->firstOrFail();
+
+        $this->withSession([config('localization.session_key', 'locale') => 'fr'])
+            ->get(route('marketplace.home'))
+            ->assertOk()
+            ->assertSee('Beauté, Parfums &amp; Soins personnels', false)
+            ->assertSee('data-category-label="beauté, parfums &amp; soins personnels beauty, perfume &amp; personal care', false)
+            ->assertSee('parfum', false);
+
+        $this->assertSame('Beauté, Parfums & Soins personnels', $beauty->display_name);
+    }
+
+    public function test_requested_category_keywords_and_synonyms_match_the_expected_taxonomy(): void
+    {
+        $examples = [
+            'parfum' => 'beauty-perfume-personal-care',
+            'beauté' => 'beauty-perfume-personal-care',
+            'téléphone' => 'electronics-phones',
+            'ordinateur' => 'electronics-phones',
+            'voiture' => 'automotive-parts',
+            'auto' => 'automotive-parts',
+            'maison' => 'home-kitchen',
+            'meuble' => 'home-kitchen',
+            'frigo' => 'home-appliances',
+            'bébé' => 'baby-children',
+            'construction' => 'construction-hardware',
+            'agriculture' => 'agriculture-livestock',
+            'bijoux' => 'jewelry-accessories',
+            'vêtement' => 'fashion-clothing',
+            'chaussure' => 'fashion-clothing',
+            'nourriture' => 'food-beverages',
+            'boisson' => 'food-beverages',
+        ];
+
+        foreach ($examples as $term => $slug) {
+            $this->assertTrue(
+                Category::active()->matching($term)->where('slug', $slug)->exists(),
+                "{$term} should match {$slug}."
+            );
+        }
+    }
+}

@@ -67,6 +67,9 @@ RUN migration="database/migrations/2026_09_06_000000_add_seller_profile_location
     sed -i "/Schema::create('vendor_country_availability'/a\\                \$table->id();" "$migration"; \
     sed -i "s/\\\$table->primary(\\['vendor_id', 'country_id'\\]);/\\\$table->unique(['vendor_id', 'country_id']);/" "$migration"
 
+RUN migration="database/migrations/2026_09_01_000001_add_marketplace_interaction_tables.php"; \
+    sed -i "s/\\\$table->uuid('id')->primary();/\\\$table->id();/" "$migration"
+
 RUN sed -ri 's!/var/www/html!/var/www/html/public!g' \
         /etc/apache2/sites-available/000-default.conf \
     && printf '%s\n' \

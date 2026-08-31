@@ -1,1 +1,74 @@
-PD9waHAKCnVzZSBJbGx1bWluYXRlXERhdGFiYXNlXE1pZ3JhdGlvbnNcTWlncmF0aW9uOwp1c2UgSWxsdW1pbmF0ZVxEYXRhYmFzZVxTY2hlbWFcQmx1ZXByaW50Owp1c2UgSWxsdW1pbmF0ZVxTdXBwb3J0XEZhY2FkZXNcU2NoZW1hOwoKLyoKICogQWRkaXRpdmUgb25seTogbGVnYWN5IHJvbGVfaWQvcm9sZSBkYXRhIGFuZCBleGlzdGluZyBtYXJrZXRwbGFjZSByZWNvcmRzIGFyZQogKiBuZXZlciBhbHRlcmVkIG9yIGRlbGV0ZWQuIFRoZSBjYXBhYmlsaXRpZXMgbWlncmF0aW9uIG1hcHMgcm9sZV9pZCAyIHRvIGJ1eWVyCiAqICsgc2VsbGVyIGFuZCByb2xlX2lkIDMgdG8gYnV5ZXI7IHVua25vd24gbGVnYWN5IHJvbGVzIHJlbWFpbiB1bnRvdWNoZWQuCiAqLwpyZXR1cm4gbmV3IGNsYXNzIGV4dGVuZHMgTWlncmF0aW9uIHsKICAgIHB1YmxpYyBmdW5jdGlvbiB1cCgpCiAgICB7CiAgICAgICAgU2NoZW1hOjpjcmVhdGUoJ2Zhdm9yaXRlcycsIGZ1bmN0aW9uIChCbHVlcHJpbnQgJHRhYmxlKSB7CiAgICAgICAgICAgICR0YWJsZS0+aWQoKTsKICAgICAgICAgICAgJHRhYmxlLT5mb3JlaWduSWQoJ3VzZXJfaWQnKS0+Y29uc3RyYWluZWQoKS0+Y2FzY2FkZU9uRGVsZXRlKCk7CiAgICAgICAgICAgICR0YWJsZS0+Zm9yZWlnbklkKCdwcm9kdWN0X2lkJyktPmNvbnN0cmFpbmVkKCktPmNhc2NhZGVPbkRlbGV0ZSgpOwogICAgICAgICAgICAkdGFibGUtPnRpbWVzdGFtcHMoKTsKICAgICAgICAgICAgJHRhYmxlLT51bmlxdWUoWyd1c2VyX2lkJywgJ3Byb2R1Y3RfaWQnXSk7CiAgICAgICAgfSk7CiAgICAgICAgU2NoZW1hOjpjcmVhdGUoJ2NhcnRzJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgJHRhYmxlLT5pZCgpOwogICAgICAgICAgICAkdGFibGUtPmZvcmVpZ25JZCgndXNlcl9pZCcpLT5jb25zdHJhaW5lZCgpLT5jYXNjYWRlT25EZWxldGUoKS0+dW5pcXVlKCk7CiAgICAgICAgICAgICR0YWJsZS0+dGltZXN0YW1wcygpOwogICAgICAgIH0pOwogICAgICAgIFNjaGVtYTo6Y3JlYXRlKCdjYXJ0X2l0ZW1zJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgJHRhYmxlLT5pZCgpOwogICAgICAgICAgICAkdGFibGUtPmZvcmVpZ25JZCgnY2FydF9pZCcpLT5jb25zdHJhaW5lZCgpLT5jYXNjYWRlT25EZWxldGUoKTsKICAgICAgICAgICAgJHRhYmxlLT5mb3JlaWduSWQoJ3Byb2R1Y3RfaWQnKS0+Y29uc3RyYWluZWQoKS0+Y2FzY2FkZU9uRGVsZXRlKCk7CiAgICAgICAgICAgICR0YWJsZS0+dW5zaWduZWRJbnRlZ2VyKCdxdWFudGl0eScpLT5kZWZhdWx0KDEpOwogICAgICAgICAgICAkdGFibGUtPmpzb24oJ3ZhcmlhbnRzJyktPm51bGxhYmxlKCk7CiAgICAgICAgICAgICR0YWJsZS0+dGltZXN0YW1wcygpOwogICAgICAgICAgICAkdGFibGUtPmluZGV4KFsnY2FydF9pZCcsICdwcm9kdWN0X2lkJ10pOwogICAgICAgIH0pOwogICAgICAgIFNjaGVtYTo6Y3JlYXRlKCdub3RpZmljYXRpb25zJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgJHRhYmxlLT51dWlkKCdpZCcpLT5wcmltYXJ5KCk7CiAgICAgICAgICAgICR0YWJsZS0+Zm9yZWlnbklkKCd1c2VyX2lkJyktPmNvbnN0cmFpbmVkKCktPmNhc2NhZGVPbkRlbGV0ZSgpOwogICAgICAgICAgICAkdGFibGUtPnN0cmluZygndHlwZScpOwogICAgICAgICAgICAkdGFibGUtPmpzb24oJ2RhdGEnKTsKICAgICAgICAgICAgJHRhYmxlLT50aW1lc3RhbXAoJ3JlYWRfYXQnKS0+bnVsbGFibGUoKS0+aW5kZXgoKTsKICAgICAgICAgICAgJHRhYmxlLT50aW1lc3RhbXBzKCk7CiAgICAgICAgICAgICR0YWJsZS0+aW5kZXgoWyd1c2VyX2lkJywgJ2NyZWF0ZWRfYXQnXSk7CiAgICAgICAgfSk7CiAgICAgICAgU2NoZW1hOjpjcmVhdGUoJ21lc3NhZ2VzJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgJHRhYmxlLT5pZCgpOwogICAgICAgICAgICAkdGFibGUtPmZvcmVpZ25JZCgnc2VuZGVyX2lkJyktPmNvbnN0cmFpbmVkKCd1c2VycycpLT5jYXNjYWRlT25EZWxldGUoKTsKICAgICAgICAgICAgJHRhYmxlLT5mb3JlaWduSWQoJ3JlY2lwaWVudF9pZCcpLT5jb25zdHJhaW5lZCgndXNlcnMnKS0+Y2FzY2FkZU9uRGVsZXRlKCk7CiAgICAgICAgICAgICR0YWJsZS0+c3RyaW5nKCdzdWJqZWN0JyktPm51bGxhYmxlKCk7CiAgICAgICAgICAgICR0YWJsZS0+dGV4dCgnYm9keScpOwogICAgICAgICAgICAkdGFibGUtPnRpbWVzdGFtcCgncmVhZF9hdCcpLT5udWxsYWJsZSgpOwogICAgICAgICAgICAkdGFibGUtPnRpbWVzdGFtcHMoKTsKICAgICAgICAgICAgJHRhYmxlLT5pbmRleChbJ3JlY2lwaWVudF9pZCcsICdyZWFkX2F0J10pOwogICAgICAgIH0pOwogICAgICAgIFNjaGVtYTo6Y3JlYXRlKCdyZXBvcnRzJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgJHRhYmxlLT5pZCgpOwogICAgICAgICAgICAkdGFibGUtPmZvcmVpZ25JZCgndXNlcl9pZCcpLT5jb25zdHJhaW5lZCgpLT5jYXNjYWRlT25EZWxldGUoKTsKICAgICAgICAgICAgJHRhYmxlLT5udWxsYWJsZU1vcnBocygncmVwb3J0YWJsZScpOwogICAgICAgICAgICAkdGFibGUtPnN0cmluZygncmVhc29uJyk7CiAgICAgICAgICAgICR0YWJsZS0+dGV4dCgnZGV0YWlscycpLT5udWxsYWJsZSgpOwogICAgICAgICAgICAkdGFibGUtPnN0cmluZygnc3RhdHVzJyktPmRlZmF1bHQoJ29wZW4nKS0+aW5kZXgoKTsKICAgICAgICAgICAgJHRhYmxlLT50aW1lc3RhbXBzKCk7CiAgICAgICAgfSk7CiAgICB9CiAgICBwdWJsaWMgZnVuY3Rpb24gZG93bigpCiAgICB7CiAgICAgICAgU2NoZW1hOjpkcm9wSWZFeGlzdHMoJ3JlcG9ydHMnKTsKICAgICAgICBTY2hlbWE6OmRyb3BJZkV4aXN0cygnbWVzc2FnZXMnKTsKICAgICAgICBTY2hlbWE6OmRyb3BJZkV4aXN0cygnbm90aWZpY2F0aW9ucycpOwogICAgICAgIFNjaGVtYTo6ZHJvcElmRXhpc3RzKCdjYXJ0X2l0ZW1zJyk7CiAgICAgICAgU2NoZW1hOjpkcm9wSWZFeGlzdHMoJ2NhcnRzJyk7CiAgICAgICAgU2NoZW1hOjpkcm9wSWZFeGlzdHMoJ2Zhdm9yaXRlcycpOwogICAgfQp9Ow==
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+/*
+ * Additive only: legacy role_id/role data and existing marketplace records are
+ * never altered or deleted. The capabilities migration maps role_id 2 to buyer
+ * + seller and role_id 3 to buyer; unknown legacy roles remain untouched.
+ */
+return new class extends Migration {
+    public function up()
+    {
+        Schema::create('favorites', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('product_id')->constrained()->cascadeOnDelete();
+            $table->timestamps();
+            $table->unique(['user_id', 'product_id']);
+        });
+        Schema::create('carts', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete()->unique();
+            $table->timestamps();
+        });
+        Schema::create('cart_items', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('cart_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('product_id')->constrained()->cascadeOnDelete();
+            $table->unsignedInteger('quantity')->default(1);
+            $table->json('variants')->nullable();
+            $table->timestamps();
+            $table->index(['cart_id', 'product_id']);
+        });
+        Schema::create('notifications', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->string('type');
+            $table->json('data');
+            $table->timestamp('read_at')->nullable()->index();
+            $table->timestamps();
+            $table->index(['user_id', 'created_at']);
+        });
+        Schema::create('messages', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('sender_id')->constrained('users')->cascadeOnDelete();
+            $table->foreignId('recipient_id')->constrained('users')->cascadeOnDelete();
+            $table->string('subject')->nullable();
+            $table->text('body');
+            $table->timestamp('read_at')->nullable();
+            $table->timestamps();
+            $table->index(['recipient_id', 'read_at']);
+        });
+        Schema::create('reports', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->nullableMorphs('reportable');
+            $table->string('reason');
+            $table->text('details')->nullable();
+            $table->string('status')->default('open')->index();
+            $table->timestamps();
+        });
+    }
+    public function down()
+    {
+        Schema::dropIfExists('reports');
+        Schema::dropIfExists('messages');
+        Schema::dropIfExists('notifications');
+        Schema::dropIfExists('cart_items');
+        Schema::dropIfExists('carts');
+        Schema::dropIfExists('favorites');
+    }
+};
