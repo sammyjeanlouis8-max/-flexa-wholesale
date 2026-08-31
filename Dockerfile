@@ -70,6 +70,15 @@ RUN migration="database/migrations/2026_09_06_000000_add_seller_profile_location
 RUN migration="database/migrations/2026_09_01_000001_add_marketplace_interaction_tables.php"; \
     sed -i "s/\\\$table->uuid('id')->primary();/\\\$table->id();/" "$migration"
 
+RUN php -r '$file = "app/Providers/AppServiceProvider.php"; \
+    $source = str_replace("\r\n", "\n", file_get_contents($file)); \
+    if (strpos($source, "URL::forceScheme") === false) { \
+        $source = str_replace("use Illuminate\\Support\\Facades\\View;\n", "use Illuminate\\Support\\Facades\\View;\nuse Illuminate\\Support\\Facades\\URL;\n", $source); \
+        $source = str_replace("    public function boot()\n    {\n", "    public function boot()\n    {\n        if (\$this->app->environment(\"production\")) {\n            URL::forceScheme(\"https\");\n        }\n\n", $source); \
+    } \
+    file_put_contents($file, $source);' \
+    && php -l app/Providers/AppServiceProvider.php
+
 RUN sed -ri 's!/var/www/html!/var/www/html/public!g' \
         /etc/apache2/sites-available/000-default.conf \
     && printf '%s\n' \
