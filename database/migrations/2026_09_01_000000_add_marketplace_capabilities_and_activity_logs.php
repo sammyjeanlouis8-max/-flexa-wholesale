@@ -1,1 +1,52 @@
-PD9waHAKCnVzZSBJbGx1bWluYXRlXERhdGFiYXNlXE1pZ3JhdGlvbnNcTWlncmF0aW9uOwp1c2UgSWxsdW1pbmF0ZVxEYXRhYmFzZVxTY2hlbWFcQmx1ZXByaW50Owp1c2UgSWxsdW1pbmF0ZVxTdXBwb3J0XEZhY2FkZXNcREI7CnVzZSBJbGx1bWluYXRlXFN1cHBvcnRcRmFjYWRlc1xTY2hlbWE7CgpyZXR1cm4gbmV3IGNsYXNzIGV4dGVuZHMgTWlncmF0aW9uIHsKICAgIHB1YmxpYyBmdW5jdGlvbiB1cCgpCiAgICB7CiAgICAgICAgU2NoZW1hOjpjcmVhdGUoJ2NhcGFiaWxpdGllcycsIGZ1bmN0aW9uIChCbHVlcHJpbnQgJHRhYmxlKSB7CiAgICAgICAgICAgICR0YWJsZS0+aWQoKTsKICAgICAgICAgICAgJHRhYmxlLT5zdHJpbmcoJ2tleScpLT51bmlxdWUoKTsKICAgICAgICAgICAgJHRhYmxlLT5zdHJpbmcoJ25hbWUnKS0+bnVsbGFibGUoKTsKICAgICAgICAgICAgJHRhYmxlLT50aW1lc3RhbXBzKCk7CiAgICAgICAgfSk7CiAgICAgICAgU2NoZW1hOjpjcmVhdGUoJ2NhcGFiaWxpdHlfdXNlcicsIGZ1bmN0aW9uIChCbHVlcHJpbnQgJHRhYmxlKSB7CiAgICAgICAgICAgICR0YWJsZS0+Zm9yZWlnbklkKCdjYXBhYmlsaXR5X2lkJyktPmNvbnN0cmFpbmVkKCktPmNhc2NhZGVPbkRlbGV0ZSgpOwogICAgICAgICAgICAkdGFibGUtPmZvcmVpZ25JZCgndXNlcl9pZCcpLT5jb25zdHJhaW5lZCgpLT5jYXNjYWRlT25EZWxldGUoKTsKICAgICAgICAgICAgJHRhYmxlLT50aW1lc3RhbXBzKCk7CiAgICAgICAgICAgICR0YWJsZS0+cHJpbWFyeShbJ2NhcGFiaWxpdHlfaWQnLCAndXNlcl9pZCddKTsKICAgICAgICB9KTsKICAgICAgICBEQjo6dGFibGUoJ2NhcGFiaWxpdGllcycpLT5pbnNlcnQoWwogICAgICAgICAgICBbJ2tleScgPT4gJ2J1eWVyJywgJ25hbWUnID0+ICdCdXllcicsICdjcmVhdGVkX2F0JyA9PiBub3coKSwgJ3VwZGF0ZWRfYXQnID0+IG5vdygpXSwKICAgICAgICAgICAgWydrZXknID0+ICdzZWxsZXInLCAnbmFtZScgPT4gJ1NlbGxlcicsICdjcmVhdGVkX2F0JyA9PiBub3coKSwgJ3VwZGF0ZWRfYXQnID0+IG5vdygpXSwKICAgICAgICBdKTsKICAgICAgICAkY2FwYWJpbGl0aWVzID0gREI6OnRhYmxlKCdjYXBhYmlsaXRpZXMnKS0+cGx1Y2soJ2lkJywgJ2tleScpOwogICAgICAgIERCOjp0YWJsZSgndXNlcnMnKS0+b3JkZXJCeSgnaWQnKS0+ZWFjaChmdW5jdGlvbiAoJHVzZXIpIHVzZSAoJGNhcGFiaWxpdGllcykgewogICAgICAgICAgICAkbGVnYWN5ID0gJHVzZXItPnJvbGUgPzogKChpbnQpICR1c2VyLT5yb2xlX2lkID09PSAyID8gJ3NlbGxlcicgOiAoKGludCkgJHVzZXItPnJvbGVfaWQgPT09IDMgPyAnYnV5ZXInIDogbnVsbCkpOwogICAgICAgICAgICAka2V5cyA9ICRsZWdhY3kgPT09ICdzZWxsZXInID8gWydidXllcicsICdzZWxsZXInXSA6ICgkbGVnYWN5ID09PSAnYnV5ZXInID8gWydidXllciddIDogW10pOwogICAgICAgICAgICBmb3JlYWNoICgka2V5cyBhcyAka2V5KSB7CiAgICAgICAgICAgICAgICBEQjo6dGFibGUoJ2NhcGFiaWxpdHlfdXNlcicpLT5pbnNlcnRPcklnbm9yZShbJ2NhcGFiaWxpdHlfaWQnID0+ICRjYXBhYmlsaXRpZXNbJGtleV0sICd1c2VyX2lkJyA9PiAkdXNlci0+aWQsICdjcmVhdGVkX2F0JyA9PiBub3coKSwgJ3VwZGF0ZWRfYXQnID0+IG5vdygpXSk7CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICBTY2hlbWE6OmNyZWF0ZSgnYWRtaW5fYWN0aXZpdHlfbG9ncycsIGZ1bmN0aW9uIChCbHVlcHJpbnQgJHRhYmxlKSB7CiAgICAgICAgICAgICR0YWJsZS0+aWQoKTsKICAgICAgICAgICAgJHRhYmxlLT51bnNpZ25lZEJpZ0ludGVnZXIoJ2FjdG9yX2lkJyktPm51bGxhYmxlKCktPmluZGV4KCk7CiAgICAgICAgICAgICR0YWJsZS0+c3RyaW5nKCdhY3Rpb24nKS0+aW5kZXgoKTsKICAgICAgICAgICAgJHRhYmxlLT5zdHJpbmcoJ3RhcmdldF90eXBlJyktPm51bGxhYmxlKCktPmluZGV4KCk7CiAgICAgICAgICAgICR0YWJsZS0+dW5zaWduZWRCaWdJbnRlZ2VyKCd0YXJnZXRfaWQnKS0+bnVsbGFibGUoKS0+aW5kZXgoKTsKICAgICAgICAgICAgJHRhYmxlLT5qc29uKCdtZXRhZGF0YScpLT5udWxsYWJsZSgpOwogICAgICAgICAgICAkdGFibGUtPnRpbWVzdGFtcCgnY3JlYXRlZF9hdCcpLT51c2VDdXJyZW50KCk7CiAgICAgICAgfSk7CiAgICB9CiAgICBwdWJsaWMgZnVuY3Rpb24gZG93bigpCiAgICB7CiAgICAgICAgU2NoZW1hOjpkcm9wSWZFeGlzdHMoJ2FkbWluX2FjdGl2aXR5X2xvZ3MnKTsKICAgICAgICBTY2hlbWE6OmRyb3BJZkV4aXN0cygnY2FwYWJpbGl0eV91c2VyJyk7CiAgICAgICAgU2NoZW1hOjpkcm9wSWZFeGlzdHMoJ2NhcGFiaWxpdGllcycpOwogICAgfQp9Ow==
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration {
+    public function up()
+    {
+        Schema::create('capabilities', function (Blueprint $table) {
+            $table->id();
+            $table->string('key')->unique();
+            $table->string('name')->nullable();
+            $table->timestamps();
+        });
+        Schema::create('capability_user', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('capability_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->timestamps();
+            $table->unique(['capability_id', 'user_id']);
+        });
+        DB::table('capabilities')->insert([
+            ['key' => 'buyer', 'name' => 'Buyer', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'seller', 'name' => 'Seller', 'created_at' => now(), 'updated_at' => now()],
+        ]);
+        $capabilities = DB::table('capabilities')->pluck('id', 'key');
+        DB::table('users')->orderBy('id')->each(function ($user) use ($capabilities) {
+            $legacy = $user->role ?: ((int) $user->role_id === 2 ? 'seller' : ((int) $user->role_id === 3 ? 'buyer' : null));
+            $keys = $legacy === 'seller' ? ['buyer', 'seller'] : ($legacy === 'buyer' ? ['buyer'] : []);
+            foreach ($keys as $key) {
+                DB::table('capability_user')->insertOrIgnore(['capability_id' => $capabilities[$key], 'user_id' => $user->id, 'created_at' => now(), 'updated_at' => now()]);
+            }
+        });
+        Schema::create('admin_activity_logs', function (Blueprint $table) {
+            $table->id();
+            $table->unsignedBigInteger('actor_id')->nullable()->index();
+            $table->string('action')->index();
+            $table->string('target_type')->nullable()->index();
+            $table->unsignedBigInteger('target_id')->nullable()->index();
+            $table->json('metadata')->nullable();
+            $table->timestamp('created_at')->useCurrent();
+        });
+    }
+    public function down()
+    {
+        Schema::dropIfExists('admin_activity_logs');
+        Schema::dropIfExists('capability_user');
+        Schema::dropIfExists('capabilities');
+    }
+};

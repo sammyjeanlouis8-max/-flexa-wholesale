@@ -1,1 +1,32 @@
-PD9waHAKCnVzZSBJbGx1bWluYXRlXERhdGFiYXNlXE1pZ3JhdGlvbnNcTWlncmF0aW9uOwp1c2UgSWxsdW1pbmF0ZVxEYXRhYmFzZVxTY2hlbWFcQmx1ZXByaW50Owp1c2UgSWxsdW1pbmF0ZVxTdXBwb3J0XEZhY2FkZXNcREI7CnVzZSBJbGx1bWluYXRlXFN1cHBvcnRcRmFjYWRlc1xTY2hlbWE7CgpyZXR1cm4gbmV3IGNsYXNzIGV4dGVuZHMgTWlncmF0aW9uIHsKICAgIHB1YmxpYyBmdW5jdGlvbiB1cCgpCiAgICB7CiAgICAgICAgU2NoZW1hOjpjcmVhdGUoJ3Blcm1pc3Npb25zJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgJHRhYmxlLT5pZCgpOwogICAgICAgICAgICAkdGFibGUtPnN0cmluZygna2V5JyktPnVuaXF1ZSgpOwogICAgICAgICAgICAkdGFibGUtPnN0cmluZygnbmFtZScpLT5udWxsYWJsZSgpOwogICAgICAgICAgICAkdGFibGUtPnRpbWVzdGFtcHMoKTsKICAgICAgICB9KTsKICAgICAgICBTY2hlbWE6OmNyZWF0ZSgncGVybWlzc2lvbl91c2VyJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgJHRhYmxlLT5mb3JlaWduSWQoJ3Blcm1pc3Npb25faWQnKS0+Y29uc3RyYWluZWQoKS0+Y2FzY2FkZU9uRGVsZXRlKCk7CiAgICAgICAgICAgICR0YWJsZS0+Zm9yZWlnbklkKCd1c2VyX2lkJyktPmNvbnN0cmFpbmVkKCktPmNhc2NhZGVPbkRlbGV0ZSgpOwogICAgICAgICAgICAkdGFibGUtPnByaW1hcnkoWydwZXJtaXNzaW9uX2lkJywgJ3VzZXJfaWQnXSk7CiAgICAgICAgfSk7CiAgICAgICAgZm9yZWFjaCAoWydtYW5hZ2VfdXNlcnMnLCdtYW5hZ2Vfc2VsbGVycycsJ21hbmFnZV9idXllcnMnLCdtYW5hZ2VfcHJvZHVjdHMnLCdtYW5hZ2Vfb3JkZXJzJywnbWFuYWdlX3BheW1lbnRzJywnbWFuYWdlX21hcmtldHBsYWNlJywnbWFuYWdlX2NhdGVnb3JpZXMnLCdtYW5hZ2VfcmVwb3J0cycsJ21hbmFnZV9wcm9tb3Rpb25zJywnbWFuYWdlX3N1cHBvcnQnLCdtYW5hZ2VfY29udGVudCcsJ21hbmFnZV9zZXR0aW5ncyddIGFzICRrZXkpIHsKICAgICAgICAgICAgREI6OnRhYmxlKCdwZXJtaXNzaW9ucycpLT5pbnNlcnQoWydrZXknID0+ICRrZXksICduYW1lJyA9PiB1Y3dvcmRzKHN0cl9yZXBsYWNlKCdfJywgJyAnLCAka2V5KSksICdjcmVhdGVkX2F0JyA9PiBub3coKSwgJ3VwZGF0ZWRfYXQnID0+IG5vdygpXSk7CiAgICAgICAgfQogICAgfQogICAgcHVibGljIGZ1bmN0aW9uIGRvd24oKQogICAgewogICAgICAgIFNjaGVtYTo6ZHJvcElmRXhpc3RzKCdwZXJtaXNzaW9uX3VzZXInKTsKICAgICAgICBTY2hlbWE6OmRyb3BJZkV4aXN0cygncGVybWlzc2lvbnMnKTsKICAgIH0KfTs=
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration {
+    public function up()
+    {
+        Schema::create('permissions', function (Blueprint $table) {
+            $table->id();
+            $table->string('key')->unique();
+            $table->string('name')->nullable();
+            $table->timestamps();
+        });
+        Schema::create('permission_user', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('permission_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->unique(['permission_id', 'user_id']);
+        });
+        foreach (['manage_users','manage_sellers','manage_buyers','manage_products','manage_orders','manage_payments','manage_marketplace','manage_categories','manage_reports','manage_promotions','manage_support','manage_content','manage_settings'] as $key) {
+            DB::table('permissions')->insert(['key' => $key, 'name' => ucwords(str_replace('_', ' ', $key)), 'created_at' => now(), 'updated_at' => now()]);
+        }
+    }
+    public function down()
+    {
+        Schema::dropIfExists('permission_user');
+        Schema::dropIfExists('permissions');
+    }
+};

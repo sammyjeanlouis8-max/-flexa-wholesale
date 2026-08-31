@@ -1,1 +1,68 @@
-PD9waHAKCnVzZSBJbGx1bWluYXRlXERhdGFiYXNlXE1pZ3JhdGlvbnNcTWlncmF0aW9uOwp1c2UgSWxsdW1pbmF0ZVxEYXRhYmFzZVxTY2hlbWFcQmx1ZXByaW50Owp1c2UgSWxsdW1pbmF0ZVxTdXBwb3J0XEZhY2FkZXNcREI7CnVzZSBJbGx1bWluYXRlXFN1cHBvcnRcRmFjYWRlc1xTY2hlbWE7CgpyZXR1cm4gbmV3IGNsYXNzIGV4dGVuZHMgTWlncmF0aW9uIHsKICAgIHB1YmxpYyBmdW5jdGlvbiB1cCgpCiAgICB7CiAgICAgICAgaWYgKCFTY2hlbWE6Omhhc1RhYmxlKCdjb3VudHJpZXMnKSkgewogICAgICAgICAgICBTY2hlbWE6OmNyZWF0ZSgnY291bnRyaWVzJywgZnVuY3Rpb24gKEJsdWVwcmludCAkdGFibGUpIHsKICAgICAgICAgICAgICAgICR0YWJsZS0+aWQoKTsKICAgICAgICAgICAgICAgICR0YWJsZS0+c3RyaW5nKCdjb2RlJywgMiktPnVuaXF1ZSgpOwogICAgICAgICAgICAgICAgJHRhYmxlLT5zdHJpbmcoJ25hbWVfa2V5Jyk7CiAgICAgICAgICAgICAgICAkdGFibGUtPnN0cmluZygnbmFtZScpOwogICAgICAgICAgICAgICAgJHRhYmxlLT5zdHJpbmcoJ2ZsYWcnLCAxNiktPm51bGxhYmxlKCk7CiAgICAgICAgICAgICAgICAkdGFibGUtPnN0cmluZygnY3VycmVuY3lfY29kZScsIDMpLT5udWxsYWJsZSgpOwogICAgICAgICAgICAgICAgJHRhYmxlLT5zdHJpbmcoJ3Bob25lX2NvZGUnLCAyNCktPm51bGxhYmxlKCk7CiAgICAgICAgICAgICAgICAkdGFibGUtPnRpbWVzdGFtcHMoKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgfQoKICAgICAgICBmb3JlYWNoIChjb25maWcoJ2NvdW50cmllcy5zdXBwb3J0ZWQnLCBbXSkgYXMgJGNvZGUgPT4gJG5hbWUpIHsKICAgICAgICAgICAgJGNvdW50cnlOYW1lID0gaXNfYXJyYXkoJG5hbWUpID8gKCRuYW1lWzBdID8/ICRjb2RlKSA6ICRuYW1lOwogICAgICAgICAgICBEQjo6dGFibGUoJ2NvdW50cmllcycpLT51cGRhdGVPckluc2VydCgKICAgICAgICAgICAgICAgIFsnY29kZScgPT4gJGNvZGVdLAogICAgICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgICAgICduYW1lX2tleScgPT4gXElsbHVtaW5hdGVcU3VwcG9ydFxTdHI6OnNuYWtlKHN0cl9yZXBsYWNlKCcgJywgJ18nLCAkY291bnRyeU5hbWUpKSwKICAgICAgICAgICAgICAgICAgICAnbmFtZScgPT4gJGNvdW50cnlOYW1lLAogICAgICAgICAgICAgICAgICAgICdmbGFnJyA9PiBpc19hcnJheSgkbmFtZSkgPyAoJG5hbWVbMV0gPz8gbnVsbCkgOiBudWxsLAogICAgICAgICAgICAgICAgICAgICdjdXJyZW5jeV9jb2RlJyA9PiBpc19hcnJheSgkbmFtZSkgPyAoJG5hbWVbMl0gPz8gbnVsbCkgOiBudWxsLAogICAgICAgICAgICAgICAgICAgICdwaG9uZV9jb2RlJyA9PiBpc19hcnJheSgkbmFtZSkgPyAoJG5hbWVbM10gPz8gbnVsbCkgOiBudWxsLAogICAgICAgICAgICAgICAgICAgICdjcmVhdGVkX2F0JyA9PiBub3coKSwKICAgICAgICAgICAgICAgICAgICAndXBkYXRlZF9hdCcgPT4gbm93KCksCiAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICk7CiAgICAgICAgfQoKICAgICAgICBpZiAoU2NoZW1hOjpoYXNUYWJsZSgncHJvZHVjdHMnKSAmJiAhU2NoZW1hOjpoYXNDb2x1bW4oJ3Byb2R1Y3RzJywgJ2F2YWlsYWJpbGl0eV90eXBlJykpIHsKICAgICAgICAgICAgU2NoZW1hOjp0YWJsZSgncHJvZHVjdHMnLCBmdW5jdGlvbiAoQmx1ZXByaW50ICR0YWJsZSkgewogICAgICAgICAgICAgICAgJHRhYmxlLT5zdHJpbmcoJ2F2YWlsYWJpbGl0eV90eXBlJywgMjApLT5kZWZhdWx0KCdzZWxlY3RlZCcpLT5pbmRleCgpLT5hZnRlcignc3RhdHVzJyk7CiAgICAgICAgICAgIH0pOwogICAgICAgIH0KCiAgICAgICAgaWYgKCFTY2hlbWE6Omhhc1RhYmxlKCdwcm9kdWN0X2NvdW50cnlfYXZhaWxhYmlsaXR5JykpIHsKICAgICAgICAgICAgU2NoZW1hOjpjcmVhdGUoJ3Byb2R1Y3RfY291bnRyeV9hdmFpbGFiaWxpdHknLCBmdW5jdGlvbiAoQmx1ZXByaW50ICR0YWJsZSkgewogICAgICAgICAgICAgICAgJHRhYmxlLT51bnNpZ25lZEJpZ0ludGVnZXIoJ3Byb2R1Y3RfaWQnKTsKICAgICAgICAgICAgICAgICR0YWJsZS0+dW5zaWduZWRCaWdJbnRlZ2VyKCdjb3VudHJ5X2lkJyk7CiAgICAgICAgICAgICAgICAkdGFibGUtPnByaW1hcnkoWydwcm9kdWN0X2lkJywgJ2NvdW50cnlfaWQnXSk7CiAgICAgICAgICAgICAgICAkdGFibGUtPmZvcmVpZ24oJ3Byb2R1Y3RfaWQnKS0+cmVmZXJlbmNlcygnaWQnKS0+b24oJ3Byb2R1Y3RzJyktPmNhc2NhZGVPbkRlbGV0ZSgpOwogICAgICAgICAgICAgICAgJHRhYmxlLT5mb3JlaWduKCdjb3VudHJ5X2lkJyktPnJlZmVyZW5jZXMoJ2lkJyktPm9uKCdjb3VudHJpZXMnKS0+Y2FzY2FkZU9uRGVsZXRlKCk7CiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgZnVuY3Rpb24gZG93bigpCiAgICB7CiAgICAgICAgU2NoZW1hOjpkcm9wSWZFeGlzdHMoJ3Byb2R1Y3RfY291bnRyeV9hdmFpbGFiaWxpdHknKTsKICAgICAgICBpZiAoU2NoZW1hOjpoYXNUYWJsZSgncHJvZHVjdHMnKSAmJiBTY2hlbWE6Omhhc0NvbHVtbigncHJvZHVjdHMnLCAnYXZhaWxhYmlsaXR5X3R5cGUnKSkgewogICAgICAgICAgICBTY2hlbWE6OnRhYmxlKCdwcm9kdWN0cycsIGZ1bmN0aW9uIChCbHVlcHJpbnQgJHRhYmxlKSB7CiAgICAgICAgICAgICAgICAkdGFibGUtPmRyb3BDb2x1bW4oJ2F2YWlsYWJpbGl0eV90eXBlJyk7CiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgICAgICBTY2hlbWE6OmRyb3BJZkV4aXN0cygnY291bnRyaWVzJyk7CiAgICB9Cn07
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration {
+    public function up()
+    {
+        if (!Schema::hasTable('countries')) {
+            Schema::create('countries', function (Blueprint $table) {
+                $table->id();
+                $table->string('code', 2)->unique();
+                $table->string('name_key');
+                $table->string('name');
+                $table->string('flag', 16)->nullable();
+                $table->string('currency_code', 3)->nullable();
+                $table->string('phone_code', 24)->nullable();
+                $table->timestamps();
+            });
+        }
+
+        foreach (config('countries.supported', []) as $code => $name) {
+            $countryName = is_array($name) ? ($name[0] ?? $code) : $name;
+            DB::table('countries')->updateOrInsert(
+                ['code' => $code],
+                [
+                    'name_key' => \Illuminate\Support\Str::snake(str_replace(' ', '_', $countryName)),
+                    'name' => $countryName,
+                    'flag' => is_array($name) ? ($name[1] ?? null) : null,
+                    'currency_code' => is_array($name) ? ($name[2] ?? null) : null,
+                    'phone_code' => is_array($name) ? ($name[3] ?? null) : null,
+                    'created_at' => now(),
+                    'updated_at' => now(),
+                ]
+            );
+        }
+
+        if (Schema::hasTable('products') && !Schema::hasColumn('products', 'availability_type')) {
+            Schema::table('products', function (Blueprint $table) {
+                $table->string('availability_type', 20)->default('selected')->index()->after('status');
+            });
+        }
+
+        if (!Schema::hasTable('product_country_availability')) {
+            Schema::create('product_country_availability', function (Blueprint $table) {
+                $table->id();
+                $table->unsignedBigInteger('product_id');
+                $table->unsignedBigInteger('country_id');
+                $table->unique(['product_id', 'country_id']);
+                $table->foreign('product_id')->references('id')->on('products')->cascadeOnDelete();
+                $table->foreign('country_id')->references('id')->on('countries')->cascadeOnDelete();
+            });
+        }
+    }
+
+    public function down()
+    {
+        Schema::dropIfExists('product_country_availability');
+        if (Schema::hasTable('products') && Schema::hasColumn('products', 'availability_type')) {
+            Schema::table('products', function (Blueprint $table) {
+                $table->dropColumn('availability_type');
+            });
+        }
+        Schema::dropIfExists('countries');
+    }
+};

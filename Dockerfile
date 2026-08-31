@@ -51,6 +51,22 @@ RUN migration="database/migrations/2014_10_12_000000_create_users_table.php"; \
         sed -i "/Schema::create('users'/a\\            \$table->id();" "$migration"; \
     fi
 
+RUN migration="database/migrations/2026_08_31_000001_create_permissions_tables.php"; \
+    sed -i "/Schema::create('permission_user'/a\\            \$table->id();" "$migration"; \
+    sed -i "s/\\\$table->primary(\\['permission_id', 'user_id'\\]);/\\\$table->unique(['permission_id', 'user_id']);/" "$migration"
+
+RUN migration="database/migrations/2026_09_01_000000_add_marketplace_capabilities_and_activity_logs.php"; \
+    sed -i "/Schema::create('capability_user'/a\\            \$table->id();" "$migration"; \
+    sed -i "s/\\\$table->primary(\\['capability_id', 'user_id'\\]);/\\\$table->unique(['capability_id', 'user_id']);/" "$migration"
+
+RUN migration="database/migrations/2026_09_02_000001_create_countries_and_product_availability.php"; \
+    sed -i "/Schema::create('product_country_availability'/a\\                \$table->id();" "$migration"; \
+    sed -i "s/\\\$table->primary(\\['product_id', 'country_id'\\]);/\\\$table->unique(['product_id', 'country_id']);/" "$migration"
+
+RUN migration="database/migrations/2026_09_06_000000_add_seller_profile_location_and_availability.php"; \
+    sed -i "/Schema::create('vendor_country_availability'/a\\                \$table->id();" "$migration"; \
+    sed -i "s/\\\$table->primary(\\['vendor_id', 'country_id'\\]);/\\\$table->unique(['vendor_id', 'country_id']);/" "$migration"
+
 RUN sed -ri 's!/var/www/html!/var/www/html/public!g' \
         /etc/apache2/sites-available/000-default.conf \
     && printf '%s\n' \
