@@ -34,6 +34,9 @@ RUN if [ -f hosting-assets/flexa-source.tar.gz ]; then \
     && if [ -f hosting-assets/wallet-overlay.tar.gz.b64 ]; then \
         base64 --decode hosting-assets/wallet-overlay.tar.gz.b64 | tar -xzf - -C /var/www/html; \
     fi \
+    && if [ -f hosting-assets/vendor-subscription-overlay.tar.gz.b64 ]; then \
+        base64 --decode hosting-assets/vendor-subscription-overlay.tar.gz.b64 | tar -xzf - -C /var/www/html; \
+    fi \
     && bash restore-hosting-assets.sh \
     && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
 
