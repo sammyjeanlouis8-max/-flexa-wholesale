@@ -79,6 +79,15 @@ RUN php -r '$file = "app/Providers/AppServiceProvider.php"; \
     file_put_contents($file, $source);' \
     && php -l app/Providers/AppServiceProvider.php
 
+
+# Run installer migrations safely in production.
+RUN php -r '$file = "app/Http/Controllers/InstallController.php"; \
+    $source = file_get_contents($file); \
+    $source = str_replace("Artisan::call(\"migrate\");", "Artisan::call(\"migrate\", [\"--force\" => true, \"--no-interaction\" => true]);", $source); \
+    $source = str_replace("catch (Exception \$e)", "catch (\\Throwable \$e)", $source); \
+    file_put_contents($file, $source);' \
+    && php -l app/Http/Controllers/InstallController.php
+
 RUN sed -ri 's!/var/www/html!/var/www/html/public!g' \
         /etc/apache2/sites-available/000-default.conf \
     && printf '%s\n' \
@@ -88,9 +97,10 @@ RUN sed -ri 's!/var/www/html!/var/www/html/public!g' \
         '</Directory>' \
         > /etc/apache2/conf-available/laravel.conf \
     && a2enconf laravel \
+    && chmod +x /var/www/html/docker-start.sh \
     && chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
 
 EXPOSE 80
-CMD ["apache2-foreground"]
+CMD ["/var/www/html/docker-start.sh"]
